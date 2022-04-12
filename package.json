@@ -1,6 +1,6 @@
 {
   "name": "@art-ws/ssl-info",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Node SSL Checker",
   "homepage": "https://github.com/art-ws/ssl-info",
   "main": "index.js",
