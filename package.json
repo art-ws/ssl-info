@@ -1,0 +1,36 @@
+{
+  "name": "ssl-info",
+  "version": "1.0.0",
+  "description": "Node SSL Checker",
+  "homepage": "https://github.com/art-ws/ssl-info",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "bin": {
+    "ssl-info": "index.js"
+  },
+  "author": {
+    "email": "art-ws@pm.me",
+    "name": "art-ws Team",
+    "url": "https://art-ws.org"
+  },
+  "bugs": {
+    "url": "https://github.com/art-ws/ssl-info/issues",
+    "email": "art-ws@pm.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/art-ws/ssl-info.git"
+  },
+  "keywords": [
+    "art-ws",
+    "ssl"
+  ],
+  "dependencies": {
+    "yargs": "17.4.0",
+    "ssl-checker": "2.0.7"   
+  }
+}
