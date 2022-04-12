@@ -1,14 +1,16 @@
 {
   "name": "@art-ws/ssl-info",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Node SSL Checker",
   "homepage": "https://github.com/art-ws/ssl-info",
+  "main": "main.js",
   "license": "MIT",
   "bin": {
     "ssl-info": "bin/index.js"
   },
   "files": [
-    "bin"
+    "bin",
+    "*.js"
   ],
   "author": {
     "email": "art-ws@pm.me",

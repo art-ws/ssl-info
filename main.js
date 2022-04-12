@@ -24,12 +24,14 @@ async function main() {
     .example(`${app} google.com daysRemaining`, "")
 
   const hostname = argv.hostname || argv._[0]
-  const prop = argv.hostname || argv._[1]
-  const info = await sslChecker(hostname)
-  if (prop) {
-    console.log(info[prop])
-  } else {
-    console.log(JSON.stringify(info))
+  if (hostname) {
+    const prop = argv.hostname || argv._[1]
+    const info = await sslChecker(hostname)
+    if (prop) {
+      console.log(info[prop])
+    } else {
+      console.log(JSON.stringify(info))
+    }
   }
 }
 
