@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { main } = require("../index.js")
+const { main } = require("../main.js")
 
 main().catch((e) => {
   console.error(e)

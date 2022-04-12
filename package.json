@@ -1,6 +1,6 @@
 {
   "name": "@art-ws/ssl-info",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node SSL Checker",
   "homepage": "https://github.com/art-ws/ssl-info",
   "license": "MIT",
